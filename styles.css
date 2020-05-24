@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background-color:  #FAF8DA;
+}
+
+.all{
+  display: flex;
+ flex-flow: row;
+ margin: 0 auto;
+ justify-content: space-around;
+   font-size: 1.7em;
+
+}
+
+.fi{
+  max-width: 500px;
+margin: 10px;
+padding: 50px;
+border-bottom: 3px solid grey;
+border-radius: 5px;
+background-color: lime;
+}
+
+footer{
+  text-align: center;
+  font-size: 5em;
+}
+
+.pt {
+display: flex;
+align-items: center;
+width: 600px;
+text-align: center;
+margin: 0px auto;
+padding: 60px;
+background-color: lime;
+font-size: 1.7em;
+justify-content: space-around;
+color: purple;
+border: 10px solid black;
+}
